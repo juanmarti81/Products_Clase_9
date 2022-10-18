@@ -1,0 +1,25 @@
+<h2>Agregar nuevo producto</h2>
+<br>
+<form style="padding-left: 20px;" action="/productos" method="post">
+  <label>
+    Nombre del Producto: 
+    <input type="text" name="title" style="padding: 4px;" />
+
+  </label>
+  <br><br/>
+  <label>
+    Precio: 
+    <input type="number" name="price" style="padding: 4px;" />
+
+  </label>
+  <br><br>
+  <label>
+    Url de Imagen: 
+    <input type="text" name="thumbnail" style="padding: 4px;" />
+
+  </label>
+  <br><br>
+  <button type="submit">Enviar</button>
+</form>
+<br>
+<a href="/productos" style="font-weight: bold ;"><button>Ver Lista de Productos -></button></a>
